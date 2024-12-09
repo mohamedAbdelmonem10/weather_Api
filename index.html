@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand fs-4 d-flex align-items-center justify-content-center" href="#">
+             <div class="logo pe-2"><img src="./images/logo.png" alt=""></div>
+             <div class="name text-white">
+                <h1 class="mb-0">Weather</h1>
+                <small>tagline goes here</small>
+             </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="back">
+        <div class="img">
+            <img src="./images/banner.png" alt="" class="w-100">
+            <div class="content pb-3"></div>
+        </div>        
+        <div class="layer">
+            <div class="front container">
+                <div class="w-100">
+                 <input type="search" class="w-100" placeholder="Find Your Location..." id="searchInput">
+                 <button class="btn btn-primary" id="btnSearch">Find</button>
+                </div>
+                <div class="container mt-5">
+                 <div class="row" id="rowData">
+                     <div class="col-md-4">
+                         <div class="inner">
+                             <div class="title text-white-50 d-flex justify-content-between align-items-center p-2">
+                                 <span>Thursday</span>
+                                 <span>5December</span>
+                             </div>
+                            <div class="body">
+                                <div class="text-white fs-4">
+                                    cairo
+                                </div>
+                                <div class="text-white temp">
+                                    21.2oC
+                                </div>
+                                <img src="./images/116.png" alt="">
+                                <div class="text-info pb-3">Partly cloudy</div>
+                                <span class="text-white-50"><img src="./images/icon-umberella.png" alt=""> 20%</span>
+                            </div>
+     
+                         </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="inner">
+                            <div class="friday text-white-50 d-flex justify-content-center align-items-center p-2">
+                                <small class="fs-6">Friday</small>
+                            </div>
+                           <div class="body_2 d-flex align-content-center justify-content-center pt-5">
+                             <div class="mt-5">
+                                <img src="./images/116.png" alt="" class="mb-4">
+                                <div class="text-white mb-4">22.5oC</div>
+                                <div class="text-white-50 mb-4">14.9o</div>
+                                <div class="text-info mb-5">Partly Cloudy</div>
+                             </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="inner">
+                            <div class="title text-white-50 d-flex justify-content-center align-items-center p-2">
+                                <small class="fs-6">Saturday</small>
+                            </div>
+                           <div class="body d-flex align-content-center justify-content-center pt-5">
+                             <div class="mt-5">
+                                <img src="./images/116.png" alt="" class="mb-4">
+                                <div class="text-white mb-3">22.8oC</div>
+                                <div class="text-white-50 mb-2">16o</div>
+                                <div class="text-info mb-5">Cloudy</div>
+                             </div>
+                           </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+             </div>
+        </div>
+      
+    </div>
+    <footer class="py-5 text-white">
+        <div class="container last">
+            <div class="w-100 d-flex align-items-center justify-content-between">
+                <div class="input w-75">
+                <input type="text" class="w-100" placeholder="Enter your email to subscribe...">
+                <button class="btn btn-primary">Subscribe</button>
+                </div>
+                <div class="icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="text-white-50 mt-4">
+                Copyright 2014 Company name. Designed by Themezy. All rights reserved
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

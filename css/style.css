@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.name small {
+    line-height: .9375rem;
+    font-size: .625rem;
+    font-weight: 300;
+}
+.name h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.navbar {
+    background-color: #1E202B !important;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #4e9bd8;
+    border: 1px solid #4e9bd8;
+    border-radius: 3.125rem;
+    -webkit-border-radius: 3.125rem;
+    -moz-border-radius: 3.125rem;
+    -ms-border-radius: 3.125rem;
+    -o-border-radius: 3.125rem;
+    padding: 0 1rem;
+    margin-top: .5rem;
+}
+.navbar-nav .nav-link.active {
+    color: #4e9bd8;
+    border: 1px solid #4e9bd8;
+    border-radius: 3.125rem;
+    -webkit-border-radius: 3.125rem;
+    -moz-border-radius: 3.125rem;
+    -ms-border-radius: 3.125rem;
+    -o-border-radius: 3.125rem;
+    padding: 0 1rem;
+    margin:  .5rem;
+}
+.nav-item {
+    padding: 0 1rem;
+}
+.navbar-toggler {
+    background-color: white;
+}
+.content {
+    width: 100%;
+    min-height: 18.75rem;
+    background-color: #1E202B;
+    
+}
+.back {
+    position: relative;
+}
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0,0.3);
+}
+.front {
+    margin-top: 3.125rem;
+}
+.front input {
+    background-color: #1E202B;
+    caret-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3.125rem;
+    -webkit-border-radius: 3.125rem;
+    -moz-border-radius: 3.125rem;
+    -ms-border-radius: 3.125rem;
+    -o-border-radius: 3.125rem;
+    padding: .9375rem;
+}
+.front div {
+    position: relative;
+}
+.front button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: .3125rem;
+    padding: 0 2.5rem;
+    border-radius: 3.125rem;
+    -webkit-border-radius: 3.125rem;
+    -moz-border-radius: 3.125rem;
+    -ms-border-radius: 3.125rem;
+    -o-border-radius: 3.125rem;
+}
+#searchInput {
+    color: white;
+}
+.inner .title {
+    background-color: #2D303D;
+}
+.body {
+    background-color: #323544;
+    padding: 1.875rem 1.25rem;
+}
+.temp {
+    font-size: 5.625rem;
+    font-weight: 700;
+}
+.row>* {
+    padding: 0;
+}
+.friday {
+    background-color: #222530;
+}
+.body_2 {
+    background-color: #262936;
+}
+footer {
+    background-color: #262936;
+}
+.last input {
+    background-color: #1E202B;
+    caret-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3.125rem;
+    -webkit-border-radius: 3.125rem;
+    -moz-border-radius: 3.125rem;
+    -ms-border-radius: 3.125rem;
+    -o-border-radius: 3.125rem;
+    padding: .9375rem;
+    margin: 0 auto 0 0;
+}
+.last div {
+    position: relative;
+}
+.last button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: .3125rem;
+    padding: 0 2.5rem;
+    border-radius: 3.125rem;
+    -webkit-border-radius: 3.125rem;
+    -moz-border-radius: 3.125rem;
+    -ms-border-radius: 3.125rem;
+    -o-border-radius: 3.125rem;
+}
+.icons a i {
+    padding: 0.8rem;
+    background-color: #1E202B;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 3px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.icons a i:hover {
+    color: white;
+    background-color: #4e9bd8;
+}
