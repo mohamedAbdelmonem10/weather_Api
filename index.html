@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
           <a class="navbar-brand fs-4 d-flex align-items-center justify-content-center" href="#">
              <div class="logo pe-2"><img src="./images/logo.png" alt=""></div>
@@ -57,52 +57,53 @@
                 </div>
                 <div class="container mt-5">
                  <div class="row" id="rowData">
-                     <div class="col-md-4">
+                     <div class="col-md-4 firstDay">
                          <div class="inner">
                              <div class="title text-white-50 d-flex justify-content-between align-items-center p-2">
-                                 <span>Thursday</span>
-                                 <span>5December</span>
+                                 <span id="todayName">Thursday</span>
+                                 <div><span id="todayNumber">5</span><span id="todayMonth">month</span></div>
                              </div>
                             <div class="body">
-                                <div class="text-white fs-4">
+                                <div class="text-white fs-4" id="mycountry">
                                     cairo
                                 </div>
-                                <div class="text-white temp">
+                                <div class="text-white temp" id="temp">
                                     21.2oC
                                 </div>
-                                <img src="./images/116.png" alt="">
-                                <div class="text-info pb-3">Partly cloudy</div>
-                                <span class="text-white-50"><img src="./images/icon-umberella.png" alt=""> 20%</span>
+                                <img src="./images/116.png" alt="" id="toDayImage">
+                                <div class="text-info pb-3" id="text">Partly cloudy</div>
+                                <span id="humidity" class="text-white-50 me-3"> 20%</span>
+                                <span id="wind" class="text-white-50 me-3"> 20%</span>
+                                <span id="direction" class="text-white-50"> 20%</span>
                             </div>
-     
                          </div>
                      </div>
-                     <div class="col-md-4">
+                     <div class="col-md-4 secondDay">
                         <div class="inner">
                             <div class="friday text-white-50 d-flex justify-content-center align-items-center p-2">
-                                <small class="fs-6">Friday</small>
+                                <small class="fs-6" id="nextDay">Friday</small>
                             </div>
                            <div class="body_2 d-flex align-content-center justify-content-center pt-5">
                              <div class="mt-5">
-                                <img src="./images/116.png" alt="" class="mb-4">
-                                <div class="text-white mb-4">22.5oC</div>
-                                <div class="text-white-50 mb-4">14.9o</div>
-                                <div class="text-info mb-5">Partly Cloudy</div>
+                                <img src="./images/116.png" alt="" class="mb-4" id="secondDayImage">
+                                <div class="text-white mb-4" id="secondDayTemp">22.5oC</div>
+                                <div class="text-white-50 mb-4" id="secondDayNum">14.9o</div>
+                                <div class="text-info mb-5" id="secondDaytext">Partly Cloudy</div>
                              </div>
                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 theredDay">
                         <div class="inner">
                             <div class="title text-white-50 d-flex justify-content-center align-items-center p-2">
-                                <small class="fs-6">Saturday</small>
+                                <small class="fs-6" id="lastDay">Saturday</small>
                             </div>
                            <div class="body d-flex align-content-center justify-content-center pt-5">
                              <div class="mt-5">
-                                <img src="./images/116.png" alt="" class="mb-4">
-                                <div class="text-white mb-3">22.8oC</div>
-                                <div class="text-white-50 mb-2">16o</div>
-                                <div class="text-info mb-5">Cloudy</div>
+                                <img src="./images/116.png" alt="" class="mb-4" id="theredDayImage">
+                                <div class="text-white mb-3" id="theredDaytemp">22.8oC</div>
+                                <div class="text-white-50 mb-2" id="theredDaynum">16o</div>
+                                <div class="text-info mb-5" id="theredDaytext">Cloudy</div>
                              </div>
                            </div>
                         </div>
@@ -113,6 +114,9 @@
         </div>
       
     </div>
+
+
+
     <footer class="py-5 text-white">
         <div class="container last">
             <div class="w-100 d-flex align-items-center justify-content-between">
